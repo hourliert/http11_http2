@@ -3,5 +3,5 @@ var debug = require('debug')('http11_http2');
 var server = require('../app11');
 
 var server = server.listen(process.env.PORT_HTTP11 || 3000, function() {
-  debug('Express server listening on port ' + server.address().port);
+  debug('Express server listening on port ' + 3000);
 });

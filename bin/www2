@@ -1,4 +1,15 @@
 #!/usr/bin/env node
+var debug = require('debug')('http11_http2');
+var server = require('../app2');
+
+var server = server.listen(process.env.PORT_HTTP11 || 3001, function() {
+  debug('Express server listening on port ' + 3001);
+});
+
+
+/*
+#!/usr/bin/env node
 var app = require('../app2');
 
 app.listen(process.env.HTTP2_PORT || 3001);
+*/
