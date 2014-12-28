@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://h2duo.cloudapp.net/Mux -->
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title>Multiplexing</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+    <div class="content-wrapper">
+        <div class="float-right">
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Multiplexing Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div id="body">
+
+    <section class="content-wrapper main-content clear-fix">
+
+
+        <hgroup class="title">
+            <h1>Multiplexing.</h1>
+            <h2>
+                HTTP/2 permits requesting many resources at the same time.  To facilitate this demonstration,
+                each image has been subdivided into tiles, and latency added to each request.
+            </h2>/
+        </hgroup>
+
+
+        <article>
+            <table>
+                <tbody><tr>
+                    <td width="480">
+
+                        <table>
+                            <tbody><tr><td colspan="8"><h5>HTTP/1.1 (if supported by browser)</h5></td></tr>
+                            <tr>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay.ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(1).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(2).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(3).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(4).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(5).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(6).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(7).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(8).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(9).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(10).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(11).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(12).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(13).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(14).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(15).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(16).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(17).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(18).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(19).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(20).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(21).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(22).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(23).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(24).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(25).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(26).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(27).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(28).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(29).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(30).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(31).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(32).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(33).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(34).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(35).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(36).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(37).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(38).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(39).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(40).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(41).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(42).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(43).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(44).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(45).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(46).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(47).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(48).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(49).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(50).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(51).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(52).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(53).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(54).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(55).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(56).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(57).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(58).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(59).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(60).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(61).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(62).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(63).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(64).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(65).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(66).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(67).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(68).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(69).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(70).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(71).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(72).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(73).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(74).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(75).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(76).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(77).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(78).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:3000/images/ImageDelay(79).ashx"></td>
+                            </tr>
+                            </tbody></table>
+
+                    </td>
+                    <td width="480">
+                        <table>
+                            <tbody><tr><td colspan="8"><h5>HTTP/2</h5></td></tr>
+                            <tr>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(80).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(81).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(82).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(83).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(84).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(85).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(86).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(87).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(88).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(89).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(90).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(91).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(92).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(93).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(94).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(95).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(96).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(97).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(98).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(99).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(100).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(101).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(102).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(103).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(104).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(105).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(106).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(107).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(108).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(109).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(113).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(111).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(112).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(113).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(114).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(115).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(116).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(117).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(118).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(119).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(120).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(121).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(122).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(123).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(124).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(125).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(126).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(127).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(128).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(129).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(130).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(131).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(132).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(133).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(134).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(135).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(136).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(137).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(138).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(139).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(140).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(141).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(142).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(143).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(144).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(145).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(146).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(147).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(148).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(149).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(150).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(151).ashx"></td>
+                            </tr><tr class="nopad">
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(152).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(153).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(154).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(155).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(156).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(157).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(158).ashx"></td>
+                                <td class="nopad"><img src="https://127.0.0.1:8080/images/ImageDelay(159).ashx"></td>
+                            </tr>
+                            </tbody></table>
+
+                    </td>
+                </tr>
+                </tbody></table>
+
+            <h6>What's happening?</h6>
+            <p>
+                Each picture is made up of a series of 80 tiles, each of which must be downloaded from the server.  HTTP/1.1
+                can request up to six tiles at a time, and must wait until one of those six complete before requesting the
+                seventh, and so on.  If your browser supports it, HTTP/2 can issue all 80 requests at once.
+            </p>
+            <p>
+                HTTP/2 makes the most difference on a higher-latency link.  In order to simulate this, both the HTTP/1.1 and
+                HTTP/2 endpoints are equipped with a network emulation tool that injects an extra 100ms of latency into the
+                connection.
+            </p>
+        </article>
+    </section>
+</div>
+<footer>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p>© 2014 - Microsoft</p>
+        </div>
+    </div>
+</footer>
+
+
+</body></html>

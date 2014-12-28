@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var app = require('../app2');
+
+app.listen(process.env.HTTP2_PORT || 3001);
