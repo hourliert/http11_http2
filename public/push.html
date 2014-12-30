@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://h2duo.cloudapp.net/Mux -->
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title>Push</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+    <div class="content-wrapper">
+        <div class="float-right">
+            <nav>
+                <ul id="menu">
+                    <li><a href="/Multiplexing.html">Multiplexing</a></li>
+                    <li><a href="/push.html">Push</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div id="body">
+
+    <section class="content-wrapper main-content clear-fix">
+
+
+        <hgroup class="title">
+            <h1>Push.</h1>
+            <h2>
+                HTTP/2 permits requesting many resources at the same time.  To facilitate this demonstration,
+                each image has been subdivided into tiles, and latency added to each request.
+            </h2>/
+        </hgroup>
+
+
+        <article>
+            <img src="/images/chaton.png"/>
+
+
+
+
+            <h6>What's happening?</h6>
+            <p>
+                Each picture is made up of a series of 80 tiles, each of which must be downloaded from the server.  HTTP/1.1
+                can request up to six tiles at a time, and must wait until one of those six complete before requesting the
+                seventh, and so on.  If your browser supports it, HTTP/2 can issue all 80 requests at once.
+            </p>
+            <p>
+                HTTP/2 makes the most difference on a higher-latency link.  In order to simulate this, both the HTTP/1.1 and
+                HTTP/2 endpoints are equipped with a network emulation tool that injects an extra 100ms of latency into the
+                connection.
+            </p>
+        </article>
+    </section>
+</div>
+<footer>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p>© 2014 - Microsoft</p>
+        </div>
+    </div>
+</footer>
+
+
+</body></html>
